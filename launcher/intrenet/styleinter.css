@@ -1,0 +1,116 @@
+body {
+    background-color: lightsteelblue;
+    height: 100vh;
+}
+
+
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    color:rgb(0, 0, 0) ;
+    text-shadow: 0 0 0 rgb(0, 0, 0);
+    text-align: center;
+    font-family: fantasy;
+}
+
+h2 {
+    background: rgb(193, 220, 255);
+    text-align: center;
+    width: 450px;
+    margin: auto;
+    padding: auto;
+    border: solid 5px;
+    border-color: rgb(210, 255, 255);
+    border-radius: 50px;
+    font-family: fantasy;
+    font-size: 1rem;
+}
+
+.app {
+    display: grid;
+    width: 170px;
+    grid-template-columns: 10% 20% 20% 20% 20% ;
+    grid-template-rows: 40px repeat(1, 21px);
+    grid-template-areas: 
+    "twitch ytb"
+    "google pronote";
+    background: rgb(193, 220, 255);
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+    padding: 0 auto;
+    padding: 10px 0px 0px 0px;
+    border: solid 8px;
+    border-color: rgb(210, 255, 255);
+    border-radius: 50px;
+    font-family: fantasy;
+    
+}
+
+.button{
+    margin: 0px 5px 0px 5px;
+    color: black;
+    background-position: 2.9px;
+    padding: 3px 5px;
+    transition: padding 0.5s;
+    cursor: pointer;
+    border: solid 5px;
+    border-color: rgb(163, 199, 199);;
+    border-radius: 8px;
+    box-shadow: 0 0 9px 2px rgb(0 142 255 / 61%);
+    font-family: fantasy;
+    transition: box-shadow 0.4s;
+}
+/*.button:hover {
+    box-shadow: 0 0 9px 5px rgb(0 142 255 / 61%);
+    padding: 5px 6px;
+}*/
+
+#ytb {
+    background-image: url("../assets/youtube-logo-png-2069.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110px;
+}
+
+#ytb:hover {
+    box-shadow: 0 0 9px 5px rgb(255 0 0 / 61%);
+}
+
+#pronote {
+    background-image: url("../assets/Logo-pronote.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+}
+
+#pronote:hover {
+    box-shadow: 0 0 9px 5px rgb(16 127 77 / 80%);
+}
+
+#twitch {
+    background-image: url("../assets/twitch-logo-png-1858.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+}
+
+#twitch:hover {
+    box-shadow: 0 0 9px 5px rgb(108 36 152 / 61%);
+}
+
+#google {
+    background-image: url("../assets/google.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+}
+
+#google:hover {
+    box-shadow: 0 0 9px 5px rgb(22 126 230);
+}
+
+
+/* rgb(22 126 230) */

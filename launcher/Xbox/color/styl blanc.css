@@ -1,0 +1,96 @@
+body {
+    background: rgb(92, 103, 133);
+}
+
+.color {
+    display: grid;
+    grid-template-columns: 15% 15% 15%;
+    grid-template-rows: 56%;
+    grid-column: auto;
+    justify-items: end;
+    justify-content: end;
+    
+    margin-top: 10%;
+    margin-right: 0.4%;
+    margin-left: 100px;
+}
+
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border: solid 5px;
+    border-color: #ffffff;
+    background-color: rgb(216 214 209);
+    border-radius: 10px;
+    transition: transform 0.7s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+
+.rendu {
+    height: 700px;
+    width: 800px;
+    background-color: rgb(216 214 209);
+    border: solid 8px;
+    border-color: #ffffff;
+    border-radius: 5%;
+
+    background-image: url("../../assets/Xbox/Xbox\ blanc.png");
+    background-size: 170%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.group {
+    display: grid;
+    grid-template-columns: 0% 100% 0%;
+    grid-template-rows: 80% ;
+    grid-column: auto;
+}
+
+#noir {
+    background-image: url("../../assets/Xbox/Xbox\ noir.png");
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#blanc {
+    background-image: url("../../assets/Xbox/Xbox\ blanc.png");
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#rouge {
+    background-image: url("../../assets/Xbox/Xbox\ rouge.png");
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bleu {
+    background-image: url("../../assets/Xbox/Xbox\ bleu.png");
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#violet {
+    background-image: url("../../assets/Xbox/Xbox\ rose.png");
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#jaune {
+    background-image: url("../../assets/Xbox/Xbox\ jaune.png");
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

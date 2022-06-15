@@ -1,0 +1,112 @@
+
+ body {
+    background: rgb(92, 103, 133);
+}
+
+.img {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(216 214 209);
+    background-image: url("../assets/Xbox/Xbox\ noir.png");
+    background-position: center;
+    background-size: 700px ;
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+    transition: background-size 1s;
+}
+.img:hover {
+    background-size: 800px ;
+}
+
+
+.color {
+    background-image: url("../assets/Xbox/Xbox\ noir.png");
+    background-position: 150px;
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-color: rgb(216 214 209);
+    margin-top: 20px;
+    height: 200px;
+    width: 50%;
+    border: solid 10px;
+    border-color: #ffffff;
+    border-radius: 50px;
+    font-size: 15vh;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 200px;
+    padding-top:15px ;
+    padding-bottom:15px ;
+    font-family: fantasy;
+    transition: padding 0.3s;
+    color: black;
+}
+
+.color:hover {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    animation: rgb 5s infinite;
+}
+
+.boxTexture {
+    height: 600px;
+    width: 100%;
+    margin-top: 100px;
+    position: relativ;
+
+    display: grid;
+    align-content: space-around;
+    justify-content: space-around;
+    justify-items: center;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.tex {
+    height: 500px;
+    width: 70%;
+    background-color: rgb(216, 214, 209);
+    border: solid 6px;
+    border-color: white;
+    border-radius: 10px;
+}
+
+#t1 {
+    background-image: url("../assets/Xbox/Xbox\ texture1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+}
+
+@keyframes rgb {
+    0% {background-image: url("../assets/Xbox/Xbox\ blanc.png");
+        background-position: 150px;
+        background-size: 350px;
+        background-repeat: no-repeat;
+        background-color: rgb(216 214 209);
+    }
+    20% {background-image: url("../assets/Xbox/Xbox\ bleu.png");
+        background-position: 150px;
+        background-size: 350px;
+        background-repeat: no-repeat;
+        background-color: rgb(216 214 209);}
+    40% {background-image: url("../assets/Xbox/Xbox\ jaune.png");
+        background-position: 150px;
+        background-size: 350px;
+        background-repeat: no-repeat;
+        background-color: rgb(216 214 209);}
+    60% {background-image: url("../assets/Xbox/Xbox\ rouge.png");
+        background-position: 150px;
+        background-size: 350px;
+        background-repeat: no-repeat;
+        background-color: rgb(216 214 209);}
+    80% {background-image: url("../assets/Xbox/Xbox\ rose.png");
+        background-position: 150px;
+        background-size: 350px;
+        background-repeat: no-repeat;
+        background-color: rgb(216 214 209);}
+    100% {background-image: url("../assets/Xbox/Xbox\ blanc.png");
+        background-position: 150px;
+        background-size: 350px;
+        background-repeat: no-repeat;
+        background-color: rgb(216 214 209);}
+}
